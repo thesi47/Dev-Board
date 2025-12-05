@@ -33,32 +33,129 @@
             </div>
         </nav>
     </header>
-    <main class="items-center justify-between bg-white w-[80vw] mx-auto p-6 rounded-3xl mt-6 shadow-md">
-        <div class="grid grid-cols-4 gap-6">
-            <div class="task-info ml-4 flex items-center gap-4 p-8 bg-[var(--base)] rounded-xl">
-                <div class="checkbox-holder bg-white rounded-full p-6">
-                    <img src="assets/checkbox.png" alt="">
+    <main class="grid grid-cols-7 items-center justify-between bg-white w-[80vw] mx-auto p-6 rounded-3xl mt-6 shadow-md">
+        <div class="main-content col-span-5">
+            <div class="first-row grid grid-cols-4 gap-6">
+                <div class="task-info ml-4 flex items-center gap-4 p-8 bg-[var(--base)] rounded-xl">
+                    <div class="checkbox-holder bg-white rounded-full p-6">
+                        <img src="assets/checkbox.png" alt="">
+                    </div>
+                    <div class="">
+                        <p class="">Task Assigned</p>
+                        <h2 class="text-5xl font-bold">05</h2>
+                    </div>
                 </div>
-                <div class="">
-                    <p class="">Task Assigned</p>
-                    <h2 class="text-5xl font-bold">05</h2>
+                <div
+                    class="col-span-2 discover-info ml-4 flex items-center gap-6 text-2xl p-8 rounded-xl bg-linear-to-r from-[#3752FD] to-[#9BA8F8]">
+                    <div class="discover flex items-center ">
+                        <img src="assets/board.png" alt="">
+                        <p class="text-white">Discover something <br> new today</p>
+                    </div>
+                </div>
+                <div class="date ml-4 flex items-center gap-4 p-8 bg-[var(--base)] rounded-xl">
+                    <img src="assets/calender.png" alt="">
+                    <p class="text-2xl">Wed , <br><span class="font-bold">Jul 28 2025</span></p>
                 </div>
             </div>
-            <div class="col-span-2 task-info ml-4 flex items-center gap-6 text-2xl p-8 rounded-xl bg-linear-to-r from-[#3752FD] to-[#9BA8F8]">
-                <div class="discover flex items-center ">
-                    <img src="assets/board.png" alt="">
-                    <p>Discover something <br> new today</p>
+            <hr class="my-8 border-dashed border-[#D7DCFF]">
+            <div class="card-container grid grid-cols-3 gap-9">
+                <!-- Cards will be dynamically inserted here -->
+                <div class="card bg-[var(--base)] rounded-2xl p-6">
+                    <p class="bg-white px-4 py-2 mb-2 w-fit rounded-md">ShopEase</p>
+                    <p class="text-2xl mb-4 p-4">Fix Mobile Button Issue</p>
+                    <p class="text-[#808080] bg-white p-4 h-24 overflow-hidden text-ellipsis">Debug using Chrome DevTools, check for overlapping
+                        elements,
+                        and ensure onClick works properly
+                        and ensure onClick works properly</p>
+                    <hr class="my-8 border-dashed border-[#D7DCFF] w-[0.8]">
+                    <div class="flex justify-between items-center mt-2">
+                        <div class="deadline px-4 py-2 rounded-full">
+                            <p class="date"><span class="text-xs">Deadline</span> <br>21 March 2025</span></p>
+                        </div>
+                        <button class="btn btn-primary rounded-xl">Completed</button>
+                    </div>
+                </div>
+                <div class="card bg-[var(--base)] rounded-2xl p-6">
+                    <p class="bg-white px-4 py-2 mb-2 w-fit rounded-md">ShopEase</p>
+                    <p class="text-2xl mb-4 p-4">Fix Mobile Button Issue</p>
+                    <p class="text-[#808080] bg-white p-4 h-24 overflow-hidden text-ellipsis">Debug using Chrome DevTools, check for overlapping
+                        elements,
+                        and ensure onClick works properly
+                        and ensure onClick works properly</p>
+                    <hr class="my-8 border-dashed border-[#D7DCFF] w-[0.8]">
+                    <div class="flex justify-between items-center mt-2">
+                        <div class="deadline px-4 py-2 rounded-full">
+                            <p class="date"><span class="text-xs">Deadline</span> <br>21 March 2025</span></p>
+                        </div>
+                        <button class="btn btn-primary rounded-xl">Completed</button>
+                    </div>
+                </div>
+                <div class="card bg-[var(--base)] rounded-2xl p-6">
+                    <p class="bg-white px-4 py-2 mb-2 w-fit rounded-md">ShopEase</p>
+                    <p class="text-2xl mb-4 p-4">Fix Mobile Button Issue</p>
+                    <p class="text-[#808080] bg-white p-4 h-24 overflow-hidden text-ellipsis">Debug using Chrome DevTools, check for overlapping
+                        elements,
+                        and ensure onClick works properly
+                        and ensure onClick works properly</p>
+                    <hr class="my-8 border-dashed border-[#D7DCFF] w-[0.8]">
+                    <div class="flex justify-between items-center mt-2">
+                        <div class="deadline px-4 py-2 rounded-full">
+                            <p class="date"><span class="text-xs">Deadline</span> <br>21 March 2025</span></p>
+                        </div>
+                        <button class="btn btn-primary rounded-xl">Completed</button>
+                    </div>
+                </div>
+                <div class="card bg-[var(--base)] rounded-2xl p-6">
+                    <p class="bg-white px-4 py-2 mb-2 w-fit rounded-md">ShopEase</p>
+                    <p class="text-2xl mb-4 p-4">Fix Mobile Button Issue</p>
+                    <p class="text-[#808080] bg-white p-4 h-24 overflow-hidden text-ellipsis">Debug using Chrome DevTools, check for overlapping
+                        elements,
+                        and ensure onClick works properly
+                        and ensure onClick works properly</p>
+                    <hr class="my-8 border-dashed border-[#D7DCFF] w-[0.8]">
+                    <div class="flex justify-between items-center mt-2">
+                        <div class="deadline px-4 py-2 rounded-full">
+                            <p class="date"><span class="text-xs">Deadline</span> <br>21 March 2025</span></p>
+                        </div>
+                        <button class="btn btn-primary rounded-xl">Completed</button>
+                    </div>
+                </div>
+                <div class="card bg-[var(--base)] rounded-2xl p-6">
+                    <p class="bg-white px-4 py-2 mb-2 w-fit rounded-md">ShopEase</p>
+                    <p class="text-2xl mb-4 p-4">Fix Mobile Button Issue</p>
+                    <p class="text-[#808080] bg-white p-4 h-24 overflow-hidden text-ellipsis ">Debug using Chrome DevTools, check for overlapping
+                        elements,
+                        and ensure onClick works properly
+                        and ensure onClick works properly</p>
+                    <hr class="my-8 border-dashed border-[#D7DCFF] w-[0.8]">
+                    <div class="flex justify-between items-center mt-2">
+                        <div class="deadline px-4 py-2 rounded-full">
+                            <p class="date"><span class="text-xs">Deadline</span> <br>21 March 2025</span></p>
+                        </div>
+                        <button class="btn btn-primary rounded-xl">Completed</button>
+                    </div>
+                </div>
+                <div class="card bg-[var(--base)] rounded-2xl p-6">
+                    <p class="bg-white px-4 py-2 mb-2 w-fit rounded-md">ShopEase</p>
+                    <p class="text-2xl mb-4 p-4">Fix Mobile Button Issue</p>
+                    <p class="text-[#808080] bg-white p-4 h-24 overflow-hidden text-ellipsis">Debug using Chrome DevTools, check for overlapping
+                        elements,
+                        and ensure onClick works properly
+                        and ensure onClick works properly</p>
+                    <hr class="my-8 border-dashed border-[#D7DCFF] w-[0.8]">
+                    <div class="flex justify-between items-center mt-2">
+                        <div class="deadline px-4 py-2 rounded-full">
+                            <p class="date"><span class="text-xs">Deadline</span> <br>21 March 2025</span></p>
+                        </div>
+                        <button class="btn btn-primary rounded-xl">Completed</button>
+                    </div>
                 </div>
             </div>
-            <div class="task-info ml-4 flex items-center gap-4 p-8 bg-[var(--base)] rounded-xl">
-                <img src="assets/calender.png" alt="">
-                <p class="text-2xl">Wed , <br><span class="font-bold">Jul 28 2025</span></p>
-            </div>
-      
+        </div>
+        <div class="side-content">
+
         </div>
     </main>
-
-
     <script src="scripts/"></script>
 </body>
 

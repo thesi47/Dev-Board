@@ -2,3 +2,9 @@
   :root {
     --base: #F4F7FF;
   }
+  .card{
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+  }
+  
