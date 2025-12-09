@@ -1,9 +1,15 @@
+document.addEventListener("DOMContentLoaded", () => {
+    const count = document.querySelectorAll('.card-button').length;
+    document.getElementById('counter-decrease').textContent = count;
+});
+
 document.querySelectorAll('.card-button').forEach(button => {
     button.addEventListener('click', function () {
         this.classList.remove('btn-primary');
         this.classList.add('btn-disabled');
         const counterIncrease = document.getElementById('counter-increase');
         const counterDecrease = document.getElementById('counter-decrease');
+
         let increaseValue = parseInt(counterIncrease.textContent);
         let decreaseValue = parseInt(counterDecrease.textContent);
         increaseValue += 1;
