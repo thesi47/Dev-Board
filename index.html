@@ -152,7 +152,20 @@
                 </div>
             </div>
         </div>
-        <div class="side-content">
+        <div class="side-content bg-white col-span-2 ml-6 p-6 rounded-2xl shadow-md flex flex-col items-center self-start h-full">
+            <div class="activity-log-container flex items-center mb-6 gap-2 justify-center">
+                <div>
+                    <img id="activity-log-image" src="assets/activity.png" alt="">
+                </div>
+                <h2 class="text-xl font-medium">Activity Log</h2>
+            </div>
+            <button id="clear-history-btn" class="btn btn-primary  mb-6 rounded-xl">
+                Clear History
+            </button>
+            <hr class="w-full border-dashed border-[#D7DCFF] mb-6">
+            <div id="notification-container" class="notification-container flex flex-col gap-4">
+                <!-- Notifications will be dynamically inserted here -->
+            </div>
 
         </div>
     </main>
