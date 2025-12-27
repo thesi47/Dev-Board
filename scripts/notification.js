@@ -27,7 +27,7 @@ buttons.forEach((btn) => {
 
         // 3. Create a new <p> element
         const p = document.createElement("p");
-        p.className = "bg-[var(--base)] p-4 rounded-xl shadow";
+        p.className = "bg-[var(--base)] p-4 rounded-xl shadow sm:w-full sm:text-sm";
         p.textContent = ` ${taskTitle} — Completed on ${dateString} at ${timeString}`;
 
         // 4. Insert into log
